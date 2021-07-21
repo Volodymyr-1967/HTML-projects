@@ -50,7 +50,7 @@ body {
     font-family: 'Open Sans'sans-serif;
     position: relative;
     width: 1440px;
-    height: 3924px;
+    height: 3930px;
     background: #FFFFFF;
     color: #000;
 }
@@ -420,5 +420,5 @@ li span {
     line-height: 16px;
     letter-spacing: 0em;
     text-align: left;
-    padding-top: 342px;
+    padding-top: 360px;
 }
