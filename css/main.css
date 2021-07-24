@@ -55,8 +55,11 @@ body {
     color: #000;
 }
 
+.container {
+    max-width: 1170px;
+}
+
 .header {
-    width: 1440px;
     height: 648px;
     top: 0px;
     background: #FAFAFA;
@@ -64,6 +67,8 @@ body {
 
 .img {
     height: 648px;
+    max-width: 705px;
+    display: flex;
 }
 
 .logo {
@@ -196,7 +201,6 @@ li span {
 .section_4 {
     height: 593px;
     width: 1440px;
-    left: 0px;
     padding-top: 88px;
     background: #fff;
 }
@@ -217,7 +221,6 @@ li span {
 .text7 {
     padding-top: 88px;
     height: 219px;
-    width: 540px;
     font-family: 'Open Sans';
     font-size: 16px;
     font-style: normal;
@@ -232,6 +235,7 @@ li span {
     width: 500px;
     height: 417px;
     float: right;
+    display: flex;
 }
 
 .section_5 {
@@ -421,4 +425,9 @@ li span {
     letter-spacing: 0em;
     text-align: left;
     padding-top: 360px;
+}
+
+@media (max-width: 1170px) {
+
+    
 }
