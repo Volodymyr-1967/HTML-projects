@@ -7,26 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
     <title>Landing Page</title>
 </head>
 
 <body>
-    <header class="header">
+    <header id="header">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-6">
-                    <div class="logo"><img src="./img/logo.svg" alt=""></div>
-                    <div class="text1">Increase store revenue with smart retail analytics</div>
-                    <div class="text2">You’re one camera upgrade away from the insights you’ve always wanted</div>
-                    <div class="btposition"><a class='bt' href="#booking">Upgrade your cameras</a></div>
+                <div class="wrapper">
+                    <div class="col-12 col-sm-6">
+                        <div class="logo"><img src="./img/logo.svg" alt=""></div>
+                        <div class="text1">Increase store revenue with smart retail analytics</div>
+                        <div class="text2">You’re one camera upgrade away from the insights you’ve always wanted</div>
+                        <div class="btposition"><a class='bt' href="#booking">Upgrade your cameras</a></div>
+                    </div>
+                    <div class="col-12 col-sm-6 header-img">
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12 col-sm-6">
-                <img class='img' src="./img/image_header.png" alt="">
             </div>
         </div>
     </header>
@@ -34,18 +34,30 @@
     <section class="section_2">
         <div class="container">
             <div class="row">
-                <div class="col-12 col-sm-6 group532"></div>
+                <div class="col-12">
+                    <div class="swiper-container mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><img src="./img/logo_partner1.svg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/logo_partner2.svg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/logo_partner3.svg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/logo_partner4.svg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/logo_partner5.svg" alt=""></div>
+                            <div class="swiper-slide"><img src="./img/logo_partner6.svg" alt=""></div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
 
     <section class="section_3">
         <div class="container">
-            <div class="row">
-                <div class="col-12 col-sm-12 text3">
+            <!-- <div class="row"> -->
+                <div class="text3">
                     Make your physical stores as data driven as e-commerce
                 </div>
-            </div>
+            <!-- </div> -->
             <div class="row">
                 <div class="col-12 col-sm-4 text5">
                     <div><img class="icon" src="./img/icon1.svg" alt=""></div>
@@ -112,37 +124,37 @@
 
     <section class="section_5">
         <div class="container">
-                <div class="row">
-                    <div class="col-12 col-sm-6">
-                        <img class="img_section_5" src="./img/image section_5.png" alt="">
-                    </div>
-                    <div class="col-12 col-sm-6">
-                        <div class="section_5-1">
-                            <div class="text8">Case Study
-                            </div>
-                            <div class="text9">
-                                Business Analytics
-                            </div>
-                            <div class="text9-1">
-                                General Overview for Retail
-                            </div>
-                            <div class="text10">
-                                The Internet of Things is growing all the time.<br>
-                                Experts anticipate that globally more than twenty billion devices will be networked by
-                                the end of 20201.
-                            </div>
-                            <div class="line"></div>
-                            <a class="text11">Read More</a>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <img class="img_section_5" src="./img/image section_5.png" alt="">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <div class="section_5-1">
+                        <div class="text8">Case Study
                         </div>
+                        <div class="text9">
+                            Business Analytics
+                        </div>
+                        <div class="text9-1">
+                            General Overview for Retail
+                        </div>
+                        <div class="text10">
+                            The Internet of Things is growing all the time.<br>
+                            Experts anticipate that globally more than twenty billion devices will be networked by
+                            the end of 20201.
+                        </div>
+                        <div class="line"></div>
+                        <a class="text11">Read More</a>
                     </div>
                 </div>
+            </div>
         </div>
     </section>
 
     <section class="section_6">
         <div class="container">
             <div class="row">
-                <div class="col-xl-2">
+                <div class="col-sm-2">
                     <img class="img_section_6-1" src="./img/image section_6-1.png" alt="">
                     <div class="text12">Julian de Boer
                     </div>
@@ -151,14 +163,14 @@
                         <p>Mobility Operations</p>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-sm-4">
                     <div class="text14">
                         S&ST quickly convinced us of their flexible camera platform that let us choose the best license
                         plate recognition application for our automated barriers. The collaboration with S&ST was very
                         productive and the installed solution performs with a stunning accuracy of over 99%.
                     </div>
                 </div>
-                <div class="col-xl-2">
+                <div class="col-sm-2">
                     <img class="img_section_6-2" src="./img/image section_6-2.png" alt="">
                     <div class="text12-mob">Albrecht Biffar
                     </div>
@@ -166,7 +178,7 @@
                         <p>Managing Director</p>
                     </div>
                 </div>
-                <div class="col-xl-4">
+                <div class="col-sm-4">
                     <div class="text14">
                         We chose to go with S&ST as their camera system could be flexibly adapted to our very individual
                         needs. Installed cameras quickly provided actionable insights that helped us adjust opening
@@ -179,24 +191,30 @@
 
     <section class="section_7">
         <div class="container">
-            <div class="text15">Gain shopper intelligence with upgraded cameras</div>
-            <div class="text16">Claim your free trial</div>
-            <!-- Calendly inline widget begin -->
-            <div id="booking" class="calendly-inline-widget"
-                data-url="https://calendly.com/vladimire51?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=fb4300"
-                ></div>
-            <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-            <!-- Calendly inline widget end -->
+            <div class="row">
+                <div class="col-12">
+                    <div class="text15">Gain shopper intelligence with upgraded cameras</div>
+                    <div class="text16">Claim your free trial</div>
+                </div>
+            </div>
         </div>
+                            <!-- Calendly inline widget begin -->
+                            <div id="booking" class="calendly-inline-widget"
+                            data-url="https://calendly.com/vladimire51?hide_landing_page_details=1&hide_gdpr_banner=1&primary_color=fb4300">
+                        </div>
+                        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async>
+                        </script>
+                        <!-- Calendly inline widget end -->
+    
     </section>
 
 
     <footer class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-xl-2">
+                <div class="col-2">
                 </div>
-                <div class="col-xl-5 img_footer">
+                <div class="col-5 img_footer">
                     <img class="" src="./img/logo.svg" alt="">
                 </div>
                 <div class="col">
@@ -211,6 +229,22 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
     </script>
+
+    <!-- Swiper JS -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 2,
+            spaceBetween: 5,
+            pagination: {
+                el: ".swiper-pagination",
+                clickable: true,
+            },
+        });
+    </script>
+
 </body>
 
 </html>
