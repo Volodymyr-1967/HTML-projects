@@ -46,6 +46,7 @@
     /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+
 @media (max-width: 580px) {
 
 
@@ -125,17 +126,23 @@
     }
 
     .header-img {
-        height: 345px;
-        width: 375px;
+        /* height: 345px;
+        width: 375px; */
         background-image: url(/img/image_header.png);
         background-position: center center;
         background-size: cover;
         bottom: 0;
         margin-left: -40px;
+        width: 375px;
+        height: 345px;
     }
 
     .section_2 {
         padding-top: 250px;
+    }
+
+    .group_532 {
+        display: none;
     }
 
     .swiper-container {
@@ -423,15 +430,15 @@
     }
 
     .footer {
-        height: 498px;
+        height: 650px;
     }
 
     .img_footer {
-        padding-top: 350px;
+        padding-top: 360px;
         width: 290px;
         text-align: center;
     }
-    
+
     .text_footer {
         width: 290px;
         font-family: 'Open Sans';
@@ -443,7 +450,7 @@
         text-align: center;
         padding: 26px 0 0 0;
     }
-    
+
 }
 
 @media (min-width: 580px) {
@@ -547,6 +554,15 @@
         align-items: center;
         justify-content: center;
 
+    }
+
+    .group_532 {
+        text-align: center;
+    }
+
+
+    .mySwiper {
+        display: none;
     }
 
     .swiper-container {
@@ -858,6 +874,7 @@
 
     .img_footer {
         padding-top: 342px;
+        text-align: center;
     }
 
     .text_footer {
@@ -869,6 +886,7 @@
         letter-spacing: 0em;
         text-align: left;
         padding-top: 360px;
+        text-align: center;
     }
 
     .calendly-inline-widget {
